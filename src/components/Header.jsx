@@ -1,8 +1,9 @@
 function Header() {
-
-    return (
-        <h1>Header</h1>
-    )
+	return (
+		<header>
+			<h1 className="text-4xl">Header</h1>
+		</header>
+	);
 }
 
-export default Header;  
+export default Header;

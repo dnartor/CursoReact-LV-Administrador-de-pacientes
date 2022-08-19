@@ -1,9 +1,15 @@
-import Header from "./components/Header"
-function App() {
+import Formulario from "./components/Formulario";
+import Header from "./components/Header";
+import ListadoPacientes from "./components/ListadoPacientes";
 
-  return (
-    <Header/>
-  )
+function App() {
+	return (
+		<>
+			<Header />
+			<Formulario />
+      <ListadoPacientes/> 
+		</>
+	);
 }
 
-export default App
+export default App;

@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Formulario = () => {
-  return (
-    <div>Formulario</div>
-  )
-}
+	return (
+		<div>
+			<h2 className='text-2xl'>Formulario</h2>
+		</div>
+	);
+};
 
-export default Formulario
+export default Formulario;
