@@ -2,7 +2,7 @@ import React from "react";
 
 const ListadoPacientes = () => {
 	return (
-		<div>
+		<div className="md:w-1/2 lg:w-2/5">
 			<h2>Listado pacientes</h2>
 		</div>
 	);
