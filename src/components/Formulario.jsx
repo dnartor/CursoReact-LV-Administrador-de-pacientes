@@ -13,7 +13,7 @@ const Formulario = () => {
 					Adminístralos
 				</span>
 			</p>
-			<form className="bg-white shadow-md rounded-lg py-10 px-5">
+			<form className="bg-white shadow-md rounded-lg py-10 px-5 mb-10">
 				<div className="mb-5">
 					<label
 						className="block text-gray-700 uppercase font-bold"
@@ -82,13 +82,12 @@ const Formulario = () => {
 						className="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md"
 						placeholder="Describe los Síntomas"
 					/>
-
-					<input
-						type="submit"
-						className="bg-indigo-600 w-full p-3 text-white uppercase font-bold hover:bg-indigo-700"
-						value='Agregar Paciente'
-					/>
 				</div>
+				<input
+					type="submit"
+					className="bg-indigo-600 w-full p-3 text-white uppercase font-bold hover:bg-indigo-700 cursor-pointer transition-all"
+					value="Agregar Paciente"
+				/>
 			</form>
 		</div>
 	);
